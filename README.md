@@ -1,2 +1,11 @@
-# All-in-one-Personal-Diary
-It is a all in one productivity application implemented using Ruby on Rails. It will have features for daily to-do, notes, journal and a lot more.
+# Learning-Ruby
+
+This branch contains practice codes and exercises done by me while learning Ruby.
+
+## Resources 
+
+
+1.https://learnrubythehardway.org/book/ 
+2.https://poignant.guide/book/chapter-1.html 
+
+
