@@ -1,6 +1,6 @@
 # Solitude
 
-This project is being done under the 4th edition of LearIT, Girl program with mentor  with mentor chiral-carbon[https://github.com/chiral-carbon] .
+This project is being done under the 4th edition of LearIT, Girl program with mentor  with mentor chiral-carbon(https://github.com/chiral-carbon) .
 
 ## Application Overview:
 
