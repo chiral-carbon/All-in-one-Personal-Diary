@@ -1,7 +1,6 @@
 # Solitude
 
-This project is being done under the 4th edition of LearIT, Girl program with mentor  with mentor chiral-carbon(https://github.com/chiral-carbon) .
-
+This project is being done under the 4th edition of LearIT, Girl program with mentor  with mentor @abhipsha das
 ## Application Overview:
 
 It is an all-in-one productivity application to be implemented using Ruby on Rails. It will be a web application that has features for daily to-do, notes, journal and a lot more. The app will have divisions for viewing all the different utilities at once on login. 
