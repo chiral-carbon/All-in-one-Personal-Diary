@@ -7,7 +7,7 @@ puts "If you do want that, hit RETURN."
 $stdin.gets
 
 puts "Opening the file..."
-target = open(filename, 'w')
+target = open(filename, 'w') #w here specifies open the file in write mode
 
 puts "Truncating the file.  Goodbye!"
 target.truncate(0)
