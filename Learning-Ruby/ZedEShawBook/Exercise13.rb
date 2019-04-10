@@ -8,3 +8,5 @@ puts "Your third variable is: #{third}"
 
 a=$stdin.gets.chomp
 puts " a is #{a}"
+
+#incase of fewer than 3 arguments the non specified arguments are taken as spaces

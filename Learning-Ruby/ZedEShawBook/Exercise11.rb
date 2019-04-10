@@ -14,4 +14,5 @@ puts "So, you're #{age} old, #{height} tall and #{weight} heavy."
 print "How old are you"
 age =gets.chomp.to_i
  puts "You are #{age} years old and you will be #{age+10} years old after 10 years."
- 
+
+#for float values  use gets.chomp_f
