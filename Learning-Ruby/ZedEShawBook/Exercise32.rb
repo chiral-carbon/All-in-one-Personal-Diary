@@ -24,7 +24,7 @@ change.each {|i| puts "I got #{i}" }
 elements = []
 
 # then use the range operator to do 0 to 5 counts
-(0..5).each do |i|
+(0..5).each do |i|  # s..e creates an inclusive sequence of a set of values between s and e
   puts "adding #{i} to the list."
   # pushes the i variable on the *end* of the list
   elements.push(i)
@@ -32,3 +32,12 @@ end
 
 # now we can print them out too
 elements.each {|i| puts "Element was: #{i}" }
+
+
+# Study Drill
+# s..e creates an inclusive sequence of a set of values between s and e
+# # s...e creates a sequence of a set of values between s and e, excluding e
+
+the_count.each do |number|
+  puts "This is count #{number}"
+end
