@@ -1,6 +1,6 @@
 input_file = ARGV.first
 
-def print_all(f)
+def print_all(f) #f is the file object being passed to the function
   puts f.read
 end
 
@@ -9,7 +9,7 @@ def rewind(f)
 end
 
 def print_a_line(line_count, f)
-  puts "#{line_count}, #{f.gets.chomp}"
+  puts "#{line_count}, #{f.gets.chomp}" #get.chomp reads the file object f until it hits a new line , so essentially acts like readline
 end
 
 current_file = open(input_file)

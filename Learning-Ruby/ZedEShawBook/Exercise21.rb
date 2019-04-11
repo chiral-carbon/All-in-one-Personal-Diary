@@ -15,7 +15,7 @@ end
 
 def divide(a, b)
   puts "DIVIDING #{a} / #{b}"
-  return a / b
+  a / b  #Ruby implicitly returns the last expression
 end
 
 
