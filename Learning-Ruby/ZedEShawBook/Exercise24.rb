@@ -11,6 +11,11 @@ and requires an explanation
 \n\t\twhere there is none.
 END
 
+#Heredoc--here document -- used to create multi-line starting
+#heredoc uses/implements indentation
+#starts with "<<" and is followed by an all caps word
+
+
 puts "--------------"
 puts poem
 puts "--------------"
@@ -23,7 +28,7 @@ def secret_formula(started)
   jelly_beans = started * 500
   jars = jelly_beans / 1000
   crates = jars / 100
-  return jelly_beans, jars, crates
+  return jelly_beans, jars, crates #function can return multiple values/variables
 end
 
 

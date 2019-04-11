@@ -13,13 +13,13 @@ module Ex25
 
   # Prints the first word after shifting it off.
   def Ex25.print_first_word(words)
-    word = words.shift
+    word = words.shift #shift returns removed element from the begining
     puts word
   end
 
   # Prints the last word after popping it off.
   def Ex25.print_last_word(words)
-    word = words.pop
+    word = words.pop #pop returns removed element from the end
     puts word
   end
 
