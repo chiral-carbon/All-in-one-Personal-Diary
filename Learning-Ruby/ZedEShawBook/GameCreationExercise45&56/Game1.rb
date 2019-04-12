@@ -36,7 +36,7 @@ class School < Stage
   def enter()
     puts "Schooool Stage"
     puts "All the best!!!"
-    puts " YOu are soo screwed!"
+    puts " You are soo screwed!"
     puts "What is a+b?"
     print ">"
 
@@ -57,7 +57,7 @@ class College < Stage
   def enter()
     puts "College Stage"
     puts "All the best!!!"
-    puts " YOu are soo screwed!"
+    puts " You are soo screwed!"
     puts "What is a+b?"
     print ">"
 
@@ -78,7 +78,7 @@ class PlacementSession < Stage
   def enter()
     puts "Placement session Stage"
     puts "All the best!!!"
-    puts " YOu are soo screwed!"
+    puts " You are soo screwed!"
     puts "What is a+b?"
     print ">"
 
