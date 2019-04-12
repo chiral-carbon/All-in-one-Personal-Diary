@@ -1,3 +1,4 @@
+#Composition with classes
 class Other
 
   def override()

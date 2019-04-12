@@ -1,3 +1,4 @@
+#Composition using modules
 module Other
 
   def override()

@@ -2,29 +2,29 @@
 class Animal
 end
 
-## ??
+##  Dog is a(n) Animal
 class Dog < Animal
 
   def initialize(name)
-    ## ??
+    ## has a name
     @name = name
   end
 end
 
-## ??
+## cat is an animal
 class Cat < Animal
 
   def initialize(name)
-    ## ??
+    ## has a name
     @name = name
   end
 end
 
-## ??
+## is a
 class Person
 
   def initialize(name)
-    ## ??
+    ## has a
     @name = name
 
     ## Person has-a pet of some kind
@@ -34,13 +34,13 @@ class Person
   attr_accessor :pet
 end
 
-## ??
+## employee is a person
 class Employee < Person
 
   def initialize(name, salary)
-    ## ?? hmm what is this strange magic?
+    ## has a name... hmm what is this strange magic?
     super(name)
-    ## ??
+    ## has  a salary
     @salary = salary
   end
 

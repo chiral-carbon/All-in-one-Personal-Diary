@@ -1,3 +1,4 @@
+##Implicit Inheritance
 class Parent
 
   def implicit()
