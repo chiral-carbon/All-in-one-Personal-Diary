@@ -1,8 +1,5 @@
 class Stage
   def enter()
-    puts "Schooool Stage"
-    puts "All the best!!!"
-    puts " YOu are soo screwed!"
   end
 end
 
