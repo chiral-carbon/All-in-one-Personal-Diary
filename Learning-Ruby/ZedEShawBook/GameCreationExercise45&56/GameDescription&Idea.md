@@ -9,16 +9,26 @@ If job not secured, or IIT-JEE cutoff not cleared, game over, student dies.
 
 ### Class Hierarchy
 
-*LifeMap
--current scene
--opening scene
--next scene
-*Time(Engine)
--study(this is getting disturbingly sad)/play
-*Scene
--enter scene
-  *school
-  *college
-  *placement session
-  *job/win
-  *die/lose
+```
+  *LifeMap
+    - current scene
+    - opening scene
+    - next scene
+  *Time(Engine)
+    - study(this is getting disturbingly sad)/play
+  *Scene
+    - enter scene
+    * school
+    * college
+    * placement session
+    * job/win
+    * die/lose
+
+  ```  
+
+
+### Tasks Breakdown
+
+[] Write classes using inheritance and have simple questions to move onto next room
+[] Write modules and use composition
+[] Add levels in each room and have questions of varying difficulty
