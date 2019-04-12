@@ -1,54 +1,57 @@
-class Scene
+class Stage
   def enter()
+    puts "Schooool Stage"
+    puts "All the best!!!"
+    puts " YOu are soo screwed!"
   end
 end
 
 class Time
-  def initialize(scene_map)
+  def initialize(stage_map)
   end
 
   def study()
   end
 end
 
-class Death < Scene
+class Death < Stage
 
   def enter()
   end
 end
 
-class School < Scene
+class School < Stage
 
   def enter()
   end
 end
 
-class College < Scene
+class College < Stage
 
   def enter()
   end
 end
 
-class PlacementSession < Scene
+class PlacementSession < Stage
 
   def enter()
   end
 end
 
-class Employed < Scene
+class Employed < Stage
 
   def enter()
   end
 end
 
 class LifePath
-  def initialize(start_scene)
+  def initialize(start_stage)
   end
 
-  def next_scene(scene_name)
+  def next_stage(stage_name)
   end
 
-  def opening_scene()
+  def opening_stage()
   end
 end
 

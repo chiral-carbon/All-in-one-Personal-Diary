@@ -6,18 +6,19 @@ Game starts with the player(student) being in a school, challenge is to score go
 In college, student has to show off skills in placement session to get a job.
 If the student gets a job, game over and won.
 If job not secured, or IIT-JEE cutoff not cleared, game over, student dies.
+Here, school, collge and placement are different stages in life.
 
 ### Class Hierarchy
 
 ```
   *LifeMap
-    - current scene
-    - opening scene
-    - next scene
+    - current stage
+    - opening stage
+    - next stage
   *Time(Engine)
     - study(this is getting disturbingly sad)/play
-  *Scene
-    - enter scene
+  *Stage
+    - enter stage
     * school
     * college
     * placement session
