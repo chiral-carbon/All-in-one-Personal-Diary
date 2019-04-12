@@ -31,5 +31,5 @@ Here, school, collge and placement are different stages in life.
 ### Tasks Breakdown
 
 [x] Write classes using inheritance and have simple questions to move onto next room
-[] Write modules and use composition
+[x] Write modules and use composition
 [] Add levels in each room and have questions of varying difficulty
