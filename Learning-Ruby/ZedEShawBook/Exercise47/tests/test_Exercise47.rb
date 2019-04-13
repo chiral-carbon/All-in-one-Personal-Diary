@@ -21,4 +21,16 @@ class TestGame < Test::Unit::TestCase
         assert_equal(south, center.go('south'))
 
     end
-end 
+
+    def test_gameEx45()
+      school=Room.new("School","You are in the school stage.")
+      college=Room.new("College","You are in the college stage.")
+      placement_session=Room.new("PlacementSession","You are in the placement stage.")
+
+      school.add_paths({'college'=> college})
+      assert_equal(college, school.go('college'))
+      
+    end
+
+
+end
