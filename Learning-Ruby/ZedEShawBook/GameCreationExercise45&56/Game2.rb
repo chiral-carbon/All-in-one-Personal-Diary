@@ -16,7 +16,7 @@ class School
 
   def enter()
     puts "Welcome to the Game of LIFE."
-    puts "Here you will be tested on your skills and if you stand the test, you will get a chance to challange youself in the nect round."
+    puts "Here you will be tested on your skills and if you stand the test, you will get a chance to challange youself in the next round."
     puts "This is the School"
     puts "All the best!"
     puts "Are you going to study"

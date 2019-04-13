@@ -34,3 +34,4 @@ Here, school, collge and placement are different stages in life.
 - [x] Write modules and use composition  
 - [ ] Add comments to the final code
 - [ ] Add levels in each room and have questions of varying difficulty
+- [ ] Add hints for the questions and option to display hints
