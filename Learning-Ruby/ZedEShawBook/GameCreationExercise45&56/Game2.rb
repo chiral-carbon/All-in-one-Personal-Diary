@@ -15,7 +15,7 @@ end
 class School
 
   def enter()
-    puts "Welcome to the game of LIFE."
+    puts "Welcome to the Game of LIFE."
     puts "Here you will be tested on your skills and if you stand the test, you will get a chance to challange youself in the nect round."
     puts "This is the School"
     puts "All the best!"
@@ -37,15 +37,14 @@ end
 class College
 
   def enter()
-    puts "College Stage"
-    puts "All the best!!!"
-    puts " You are soo screwed!"
-    puts "What is a+b?"
+    puts "Welcome to  the College"
+    puts "All the best!"
+    puts "Did you get to sleep?"
     print ">"
 
     action = $stdin.gets.chomp
 
-    if action == "c"
+    if action == "NO"
       puts " Great! You move to next level"
       return 'placement_session'
     else
@@ -58,16 +57,15 @@ end
 class PlacementSession
 
   def enter()
-    puts "Placement session Stage"
-    puts "All the best!!!"
-    puts " You are soo screwed!"
+    puts "You are in the Placement session"
+    puts "All the best!"
     puts "What is a+b?"
     print ">"
 
     action = $stdin.gets.chomp
 
-    if action == "c"
-      puts " Great! You win"
+    if action == "a+b"
+      puts " Great! You win."
       return 'employed'
     else
       puts " You lose!"
