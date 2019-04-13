@@ -1,4 +1,4 @@
-require "./lib/NAME.rb"
+require "./lib/GameOfLife.rb"
 require "test/unit"
 
 class TestNAME < Test::Unit::TestCase
