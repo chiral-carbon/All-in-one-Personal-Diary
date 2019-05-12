@@ -14,6 +14,6 @@ Gem::Specification.new do |spec|
 
   spec.files         = ['lib/Exercise48.rb']
   spec.executables   = ['bin/Exercise48']
-  spec.test_files    = ['tests/test_Exercise48.rb']
+  spec.test_files    = ['tests/test_lexicon.rb']
   spec.require_paths = ["lib"]
 end
