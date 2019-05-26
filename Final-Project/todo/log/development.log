@@ -802,3 +802,87 @@ Processing by TodoListsController#show as HTML
 Completed 200 OK in 47ms (Views: 45.3ms | ActiveRecord: 0.3ms)
 
 
+Started GET "/todo_lists/2" for ::1 at 2019-05-26 20:26:05 +0530
+Processing by TodoListsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTodoList Load (0.3ms)[0m  [1m[34mSELECT  "todo_lists".* FROM "todo_lists" WHERE "todo_lists"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering todo_lists/show.html.erb within layouts/application
+  [1m[36mTodoItem Load (0.2ms)[0m  [1m[34mSELECT "todo_items".* FROM "todo_items" WHERE "todo_items"."todo_list_id" = ?[0m  [["todo_list_id", 2]]
+  Rendered collection of todo_items/_todo_item.html.erb [3 times] (5.2ms)
+  Rendered todo_items/_form.html.erb (2.0ms)
+  Rendered todo_lists/show.html.erb within layouts/application (13.6ms)
+Completed 200 OK in 147ms (Views: 143.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/todo_lists" for ::1 at 2019-05-26 20:26:12 +0530
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.6ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists"[0m
+  Rendered todo_lists/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 37ms (Views: 33.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/todo_lists/new" for ::1 at 2019-05-26 20:26:14 +0530
+Processing by TodoListsController#new as HTML
+  Rendering todo_lists/new.html.erb within layouts/application
+  Rendered todo_lists/_form.html.erb (13.0ms)
+  Rendered todo_lists/new.html.erb within layouts/application (17.0ms)
+Completed 200 OK in 100ms (Views: 96.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/todo_lists" for ::1 at 2019-05-26 20:26:20 +0530
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.2ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists"[0m
+  Rendered todo_lists/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 27ms (Views: 25.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/todo_lists/1/edit" for ::1 at 2019-05-26 20:26:21 +0530
+Processing by TodoListsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTodoList Load (0.3ms)[0m  [1m[34mSELECT  "todo_lists".* FROM "todo_lists" WHERE "todo_lists"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering todo_lists/edit.html.erb within layouts/application
+  Rendered todo_lists/_form.html.erb (8.7ms)
+  Rendered todo_lists/edit.html.erb within layouts/application (13.2ms)
+Completed 200 OK in 63ms (Views: 58.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/todo_lists" for ::1 at 2019-05-26 20:26:26 +0530
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists"[0m
+  Rendered todo_lists/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 51ms (Views: 48.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/todo_lists/1" for ::1 at 2019-05-26 20:26:28 +0530
+Processing by TodoListsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTodoList Load (0.5ms)[0m  [1m[34mSELECT  "todo_lists".* FROM "todo_lists" WHERE "todo_lists"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering todo_lists/show.html.erb within layouts/application
+  [1m[36mTodoItem Load (0.4ms)[0m  [1m[34mSELECT "todo_items".* FROM "todo_items" WHERE "todo_items"."todo_list_id" = ?[0m  [["todo_list_id", 1]]
+  Rendered collection of todo_items/_todo_item.html.erb [1 times] (2.8ms)
+  Rendered todo_items/_form.html.erb (3.3ms)
+  Rendered todo_lists/show.html.erb within layouts/application (16.9ms)
+Completed 200 OK in 57ms (Views: 52.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/todo_lists/1/edit" for ::1 at 2019-05-26 20:26:30 +0530
+Processing by TodoListsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTodoList Load (0.3ms)[0m  [1m[34mSELECT  "todo_lists".* FROM "todo_lists" WHERE "todo_lists"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering todo_lists/edit.html.erb within layouts/application
+  Rendered todo_lists/_form.html.erb (8.3ms)
+  Rendered todo_lists/edit.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 59ms (Views: 53.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/todo_lists" for ::1 at 2019-05-26 20:26:32 +0530
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.6ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists"[0m
+  Rendered todo_lists/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 64ms (Views: 59.8ms | ActiveRecord: 0.6ms)
+
+
